@@ -1,0 +1,32 @@
+.pagination {
+	padding: 15px 0;
+	border-top: 1px solid var(--gray-light);
+	margin: 0 35px;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+    scrollbar-width: none;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 35px;
+		width: 35px;
+		height: 35px;
+		border: 1px solid transparent;
+		border-radius: var(--border-radius);
+		background: var(--gray-light);
+		font-size: 14px;
+		line-height: 1.5;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			border-color: var(--primary);
+		}
+		&--active {
+			border-width: 2px;
+			border-color: var(--primary);
+		}
+	}
+}

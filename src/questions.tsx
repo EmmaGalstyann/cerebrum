@@ -1,0 +1,36 @@
+import { IQuestion } from './types';
+
+const questions: IQuestion[] = [
+	{ id: 1, correctAnswerID: 'B' },
+	{ id: 2, correctAnswerID: 'E' },
+	{ id: 3, correctAnswerID: 'F' },
+	{ id: 4, correctAnswerID: 'B' },
+	{ id: 5, correctAnswerID: 'E' },
+	{ id: 6, correctAnswerID: 'F' },
+	{ id: 7, correctAnswerID: 'B' },
+	{ id: 8, correctAnswerID: 'E' },
+	{ id: 9, correctAnswerID: 'F' },
+	{ id: 10, correctAnswerID: 'B' },
+	{ id: 11, correctAnswerID: 'E' },
+	{ id: 12, correctAnswerID: 'F' },
+	{ id: 13, correctAnswerID: 'B' },
+	{ id: 14, correctAnswerID: 'E' },
+	{ id: 15, correctAnswerID: 'F' },
+	{ id: 16, correctAnswerID: 'B' },
+	{ id: 17, correctAnswerID: 'E' },
+	{ id: 18, correctAnswerID: 'F' },
+	{ id: 19, correctAnswerID: 'B' },
+	{ id: 20, correctAnswerID: 'E' },
+	{ id: 21, correctAnswerID: 'F' },
+	{ id: 22, correctAnswerID: 'B' },
+	{ id: 23, correctAnswerID: 'E' },
+	{ id: 24, correctAnswerID: 'F' },
+	{ id: 25, correctAnswerID: 'B' },
+	{ id: 26, correctAnswerID: 'E' },
+	{ id: 27, correctAnswerID: 'F' },
+	{ id: 28, correctAnswerID: 'B' },
+	{ id: 29, correctAnswerID: 'E' },
+	{ id: 30, correctAnswerID: 'F' },
+];
+
+export default questions;
